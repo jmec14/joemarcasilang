@@ -107,4 +107,26 @@ class Activate extends Common_App {
 		$this->redirect_to_admin_page( License\Admin::get_url() );
 		die;
 	}
+
+	public function action_reset() {
+		if ( current_user_can( 'manage_options' ) ) {
+			delete_option( 'elementor_pro_license_key' );
+			delete_transient( 'elementor_pro_license_data' );
+		}
+
+		$this->redirect_to_admin_page();
+	}
+
+	protected function get_app_info() {
+		return [
+			'license_data' => [
+				'label' => 'License Data',
+				'value' => get_option( '_elementor_pro_license_data' ),
+			],
+			'license_key' => [
+				'label' => 'License Key',
+				'value' => get_option( 'elementor_pro_license_key' ),
+			],
+		];
+	}
 }
