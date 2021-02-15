@@ -1,0 +1,20 @@
+[30-Jul-2020 18:46:00 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/joemarca/public_html/wp-includes/customize/class-wp-customize-theme-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/joemarca/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[31-Jul-2020 00:01:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[01-Aug-2020 12:35:03 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[01-Aug-2020 12:35:04 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[01-Aug-2020 12:35:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/joemarca/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17

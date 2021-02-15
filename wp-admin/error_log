@@ -1,0 +1,54 @@
+[17-Jan-2020 00:28:58 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/joemarca/public_html/wp-content/plugins/pagelayer/main/settings.php on line 443
+[04-Feb-2020 15:32:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function filter_block_content() in /home/joemarca/public_html/wp-includes/formatting.php:4924
+Stack trace:
+#0 /home/joemarca/public_html/wp-includes/class-wp-hook.php(288): wp_pre_kses_block_attributes('LiteSpeed Cache', Array, Array)
+#1 /home/joemarca/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('LiteSpeed Cache', Array)
+#2 /home/joemarca/public_html/wp-includes/kses.php(914): apply_filters('pre_kses', 'LiteSpeed Cache', Array, Array)
+#3 /home/joemarca/public_html/wp-includes/kses.php(737): wp_kses_hook('LiteSpeed Cache', Array, Array)
+#4 /home/joemarca/public_html/wp-admin/includes/plugin.php(187): wp_kses('LiteSpeed Cache', Array)
+#5 /home/joemarca/public_html/wp-admin/includes/plugin.php(106): _get_plugin_data_markup_translate('litespeed-cache...', Array, true, true)
+#6 /home/joemarca/public_html/wp-admin/includes/plugin.php(1115): get_plugin_data('/home/joemarca/...')
+#7 /home/joemarca/public_html/wp-admin/includes/plugin.php(634): validate_plugin_requ in /home/joemarca/public_html/wp-includes/formatting.php on line 4924
+[18-Feb-2020 13:23:35 UTC] Astra: Batch Process Started!
+[18-Feb-2020 13:23:35 UTC] Astra: Queuing 2.3.0 - astra_header_button_new_options
+[22-Mar-2020 03:59:19 UTC] WordPress database error Disk full (/tmp/#sql_f30_0.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `jmec_options` made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/elementor-pro/elementor-pro.php'), set_transient, update_option
+[22-Mar-2020 03:59:20 UTC] WordPress database error Disk full (/tmp/#sql_f30_0.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `jmec_options` made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, wp_cron, spawn_cron, set_transient, update_option
+[22-Mar-2020 03:59:21 UTC] WordPress database error Disk full (/tmp/#sql_f30_0.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `jmec_options` made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Theme_Background_Updater->install_actions, Astra_Theme_Background_Updater->test_cron, get_transient, delete_option
+[22-Mar-2020 03:59:21 UTC] WordPress database error Disk full (/tmp/#sql_f30_0.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `jmec_options` made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Theme_Background_Updater->install_actions, Astra_Theme_Background_Updater->test_cron, get_transient, delete_option
+[22-Mar-2020 03:59:21 UTC] WordPress database error Disk full (/tmp/#sql_f30_0.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `jmec_options` made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Theme_Background_Updater->install_actions, Astra_Theme_Background_Updater->test_cron, set_transient, update_option
+[22-Mar-2020 03:59:21 UTC] WordPress database error Disk full (/tmp/#sql_f30_0.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `jmec_options` made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Theme_Background_Updater->install_actions, Astra_Theme_Background_Updater->test_cron, set_transient, update_option
+[24-Mar-2020 00:44:28 UTC] PHP Warning:  Error while sending QUERY packet. PID=3814786 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2030
+[24-Mar-2020 01:49:31 UTC] PHP Warning:  Error while sending QUERY packet. PID=3954677 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2030
+[24-Mar-2020 10:55:48 UTC] PHP Warning:  Error while sending QUERY packet. PID=905131 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2030
+[24-Mar-2020 10:55:58 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/joemarca/public_html/wp-admin/includes/plugin-install.php on line 182
+[25-Mar-2020 10:38:51 UTC] PHP Warning:  Use of undefined constant WP_CONTENT_DIR - assumed 'WP_CONTENT_DIR' (this will throw an Error in a future version of PHP) in /home/joemarca/public_html/wp-includes/load.php on line 141
+[25-Mar-2020 10:55:39 UTC] PHP Warning:  Use of undefined constant WP_CONTENT_DIR - assumed 'WP_CONTENT_DIR' (this will throw an Error in a future version of PHP) in /home/joemarca/public_html/wp-includes/load.php on line 141
+[13-Apr-2020 00:18:15 UTC] PHP Warning:  Error while sending QUERY packet. PID=2999039 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2030
+[18-Jun-2020 11:10:56 UTC] PHP Warning:  Error while sending QUERY packet. PID=778832 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2030
+[30-Jun-2020 05:08:33 UTC] PHP Warning:  Error while sending QUERY packet. PID=2581027 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[30-Jun-2020 05:13:29 UTC] WordPress database error Table 'joemarca_jmec.jmec_yoast_indexable' doesn't exist for query UPDATE jmec_yoast_indexable SET permalink = NULL WHERE object_type = 'post' AND object_sub_type = 'attachment' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wpseo_init, WPSEO_Upgrade->__construct, array_walk, WPSEO_Upgrade->run_upgrade_routine, WPSEO_Upgrade->upgrade_141, WPSEO_Upgrade->reset_permalinks_of_attachments_for_141
+[30-Jun-2020 05:28:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=2613172 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[30-Jun-2020 06:59:32 UTC] PHP Warning:  Error while sending QUERY packet. PID=2780714 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[03-Jul-2020 05:47:21 UTC] Astra: Batch Process Started!
+[03-Jul-2020 05:47:21 UTC] Astra: Queuing 2.4.0 - astra_responsive_base_background_option
+[03-Jul-2020 05:47:21 UTC] Astra: Queuing 2.4.0 - astra_update_theme_tablet_breakpoint
+[03-Jul-2020 05:47:21 UTC] Astra: Queuing 2.4.4 - astra_gtn_full_wide_image_group_css
+[21-Jul-2020 02:32:44 UTC] PHP Warning:  Error while sending QUERY packet. PID=2369846 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[22-Jul-2020 00:43:42 UTC] PHP Warning:  Error while sending QUERY packet. PID=1155878 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[22-Jul-2020 00:53:49 UTC] PHP Warning:  Use of undefined constant SHOWCASEIDX_AGENT_HOST - assumed 'SHOWCASEIDX_AGENT_HOST' (this will throw an Error in a future version of PHP) in /home/joemarca/public_html/wp-content/plugins/showcase-idx/3/install.php on line 44
+[24-Jul-2020 07:27:27 UTC] PHP Warning:  Error while sending QUERY packet. PID=259482 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 08:18:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=368400 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 09:57:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=584697 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 09:57:19 UTC] PHP Warning:  Error while sending QUERY packet. PID=584732 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 09:58:20 UTC] PHP Warning:  Error while sending QUERY packet. PID=585202 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 10:14:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=621083 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 10:14:30 UTC] PHP Warning:  Error while sending QUERY packet. PID=621761 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 10:15:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=621761 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 10:15:35 UTC] PHP Warning:  Error while sending QUERY packet. PID=621132 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[24-Jul-2020 11:18:23 UTC] PHP Warning:  Error while sending QUERY packet. PID=764255 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
+[03-Aug-2020 23:12:10 UTC] Astra: Batch Process Started!
+[03-Aug-2020 23:12:10 UTC] Astra: Queuing 2.5.0 - astra_global_button_woo_css
+[03-Aug-2020 23:12:10 UTC] Astra: Queuing 2.5.0 - astra_gtn_full_wide_group_cover_css
+[03-Aug-2020 23:12:16 UTC] Astra: db version updated successfully!
+[03-Aug-2020 23:12:16 UTC] Astra: Batch Process Completed!
+[10-Aug-2020 02:40:28 UTC] PHP Warning:  Error while sending QUERY packet. PID=2426448 in /home/joemarca/public_html/wp-includes/wp-db.php on line 2024
